@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", serif;
+  font-weight: bold;
+}
+
+nav {
+  background-color: bisque;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  justify-content: space-between;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+h4 {
+  text-transform: capitalize;
+  color: darkslategray;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid transparent;
+  padding: 5px;
+}
+li:active {
+  border-bottom: 1px solid darkslategray;
+}
+li:hover {
+  border-bottom: 1px solid darkslategray;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.container {
+  margin: 25% 10%;
+  height: 100%;
+}
+.container span {
+  color: cadetblue;
+}
+
+h2 {
+  background-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  color: bisque;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+button {
+  padding: 10px;
+  background-color: transparent;
+  border: bisque solid 2px;
+  border-radius: 5px;
+  margin: 5% 40%;
+  width: 20%;
+  justify-content: center;
+  color: bisque;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
